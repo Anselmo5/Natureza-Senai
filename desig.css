@@ -1,0 +1,315 @@
+body{
+animation-name: background;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+background:linear-gradient( to right, #262524,#403F3D,#8C8072,#A6978A,#F2F2F2);
+background-size: 500%;
+
+
+
+}
+
+
+body{
+    max-height: 100%;
+    overflow: auto;
+}
+
+
+
+
+@keyframes background{
+
+    0%{
+        background-position-x: 0%;
+    }
+
+    100%{
+        background-position-x : 100%;
+    }
+}
+
+
+
+.cabeçario{
+font-size: 15px;
+font-family: cursive;
+text-align: center;
+color: white;
+
+}
+
+
+.tudo{
+    justify-content: space-around;
+}
+
+
+
+/* chernobyl (1986) :  */
+
+
+.box{
+    background: lavender;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+    margin-top: 150px;
+    
+    
+}
+
+.fon{
+    font-family: cursive;
+    font-size: 10px;
+    text-align: justify;
+}
+
+
+/* Fukichima Daiichi (2011)  : */
+
+
+
+.ban{
+    background-color: lavender;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+     margin: 10px;
+ 
+  
+
+}
+
+
+.ban h1{
+    font-size: 10px;
+    font-family: cursive;
+    text-align: justify;
+   
+ 
+}
+
+/* Kyshtym (1957)  */
+
+.rus{
+    background-color: lavender;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+    margin-top: 5px;
+    margin: 10px;
+}
+
+.marga{
+    font-family: cursive;
+    font-size: 10px;
+    text-align: justify;
+}
+
+
+/* Three Mile Island (1979)  */
+
+
+.the{
+    background-color: lavender;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+    margin-top: 5px;
+    margin: 10px;
+}
+
+.mil{
+    font-size: 10px;
+    font-family: cursive;
+    text-align: justify;
+}
+
+
+
+
+/* Windscale (1957) */
+
+.cale{
+    background-color: lavender;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+    margin-top: 5px;
+    margin: 10px;
+
+}
+
+.ds{
+    font-size: 10px ;
+    font-family: cursive;
+    text-align: justify;
+
+}
+
+
+/* Tokaimura (1999) */
+
+.kai{
+    background-color: lavender;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+    margin-top: 5px;
+    margin: 10px;
+}
+
+
+
+.mura{
+    font-size: 10px ;
+    font-family: cursive;
+    text-align: justify;
+
+}
+
+
+
+/* Goiânia */
+
+.Goi{
+    background-color: lavender;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    height: 180px;
+    margin-top: 5px;
+    margin: 10px;
+}
+
+
+
+
+.ân{
+    font-size: 10px;
+    font-family: cursive;
+    text-align: justify;
+}
+  
+
+
+
+
+/* França */
+
+.ça{
+    background-color: lavender;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+    margin-top: 5px;
+    margin: 10px;
+}
+
+.fran{
+    font-size: 10px;
+    font-family: cursive;
+    text-align: justify;
+    
+}
+
+
+/* submarino K19 */
+
+.k19{
+    background-color: lavender;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+    margin-top: 5px;
+    margin: 10px;
+}
+
+.k19 .marino h1{
+    font-size: 10px;
+    font-family: cursive;
+    text-align: justify
+}
+
+.flat{
+    background-color: lavender;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+    margin-top: 5px;
+    margin: 10px;
+}
+
+.cca{
+    font-size: 10px;
+    font-family: cursive;
+    text-align: justify
+}
+
+
+/* Linha do tempo */
+
+.linha-tempo{
+    width: 90%;
+    height: 60%;
+    border-radius: 13px;
+    margin-top: 3vh;
+    justify-self: center;
+    background-color:white ;
+    box-shadow: 0px 0.5rem 0rem black;
+    padding: 3;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+}
+
+ol{
+    list-style: none;
+    counter-reset: minha-lista;
+}
+
+li{
+ counter-increment: minha-lista;
+ border-left: solid 1px lightgreen ;
+ padding-top: 2rem;
+ padding-bottom:2rem ;
+ display: grid;
+ grid-template-columns: auto 1fr;
+ grid-template-rows: auto;
+ grid-template-areas: "icon text";
+ align-items:start;
+}
+ li::before{
+    grid-area: icon;
+ }
+
+ .conteudo{
+    border-radius: 0.5rem;
+    border: solid 1px black;
+    box-shadow: 0rem 0.2rem 0rem  darkred;
+    grid-area: text;
+    border-bottom: solid 1px antiquewhite;
+    padding: 1rem;
+    font-family: cursive;
+ }
+
+
+
+ .linha-tempo h1{
+    font-family: cursive;
+
+ }
+
+ 
